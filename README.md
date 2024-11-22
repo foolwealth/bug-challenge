@@ -14,5 +14,5 @@ You receive the following information from bug reports, and are the first to sta
 
 ## The Task
 Given that you are the engineering manager of the team...
-1. How would you track down the issue, given the code provided? Feel free to point out both syntactical and architectural issues with the code.
-2. How would you give feedback to the team/developer who put this code into production? 
+1. Given the code provided, how would you track down the issue? Feel free to point out both syntactical and architectural issues with the code.
+2. You have noticed that this developer has committed issues like this multiple times, and you also noticed that their performance has decreased over the last few months. Can you walk us through how you would address this issue with the developer?
