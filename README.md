@@ -2,14 +2,14 @@
 
 ## Overview
 `user-dashboard.tsx` contains a simplified React component for our system's user dashboard, which allows an admin to see users in the system. There are two API calls on the page.
-- Load all users.
-- Load user details when a user is clicked.
+- Load all users on initial page load.
+- Load specific user details when a user is clicked.
 
 ## The Problem
 You receive the following information from bug reports, and are the first to start digging in.
 
-- Intermittent failure where user gets stuck in loading screen when they try to load their dashboard
-  - User is not seeing any evidence of an error.
+- Intermittent failures where users get stuck on initial page load.
+  - Users are not seeing any evidence of an error, just an infinite loading icon.
 - Reports are widespread across all users, showing this is not a one-off issue.
 
 ## The Task
