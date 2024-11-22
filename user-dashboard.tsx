@@ -5,7 +5,6 @@ const UserDashboard = () => {
   const [selectedUser, setSelectedUser] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
 
-  // Simulated API call
   const fetchUsers = async () => {
     setIsLoading(true);
     const response = await fetch('https://api.example.com/users');
